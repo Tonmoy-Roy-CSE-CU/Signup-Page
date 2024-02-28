@@ -1,0 +1,71 @@
+body {
+    background-color: #05183c;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.class1 {
+    width: 320px;
+    height: 320px;
+    background-color: rgb(17, 29, 29);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.class1 h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.class2, .class3, .class4 {
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #39424e;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.class5{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+}
+.signup-button{
+    background-color: #e71ad5; /* Light blue background color */
+    color: #fff; /* White text color */
+    padding: 9px 18px; /* Padding for better spacing */
+    font-size: 16px; /* Font size */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s; /* Smooth transition on hover */
+
+    /* Hover effect */
+    &:hover {
+        background-color: #a4f442; /* Darker blue on hover */
+    }
+}
+.cls{
+    padding: 3px;
+}
+
+.confirmation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bx{
+    border-radius: 5px;
+}
